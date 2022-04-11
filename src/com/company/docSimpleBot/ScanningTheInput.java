@@ -1,4 +1,4 @@
-package com.company.doc;
+package com.company.docSimpleBot;
 
 	/** Simplest way to obtain data from the standard input is to use the
 	 *  standard class Scanner. To use this class you should add the

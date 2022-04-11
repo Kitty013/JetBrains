@@ -1,4 +1,4 @@
-package com.company.doc;
+package com.company.docSimpleBot;
 
 public class Characters {
     public static void main(String[] args) {

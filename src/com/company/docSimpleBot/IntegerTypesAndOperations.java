@@ -1,4 +1,4 @@
-package com.company.doc;
+package com.company.docSimpleBot;
 
 import java.util.Scanner;
 

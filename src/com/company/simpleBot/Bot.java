@@ -1,4 +1,4 @@
-package com.company;
+package com.company.simpleBot;
 
 import static java.time.LocalDate.of;
 

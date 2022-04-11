@@ -1,4 +1,4 @@
-package com.company.doc;
+package com.company.docSimpleBot;
 
 public class PrintingData {
 	public static void main(String[] args) {

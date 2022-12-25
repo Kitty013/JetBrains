@@ -1,4 +1,4 @@
-package com.company.simpleBot;
+package com.sfpd.java.simpleBot.src;
 
 import java.util.Scanner;
 

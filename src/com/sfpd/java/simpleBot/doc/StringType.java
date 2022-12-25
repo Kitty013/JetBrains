@@ -1,4 +1,4 @@
-package com.company.docSimpleBot;
+package com.sfpd.java.simpleBot.doc;
 
 import java.util.Locale;
 import java.util.Scanner;

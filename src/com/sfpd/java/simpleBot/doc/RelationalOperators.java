@@ -1,4 +1,4 @@
-package com.company.doc;
+package com.sfpd.java.simpleBot.doc;
 
 import java.util.Scanner;
 

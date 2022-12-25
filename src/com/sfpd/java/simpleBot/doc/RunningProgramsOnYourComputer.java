@@ -1,4 +1,4 @@
-package com.company.docSimpleBot;
+package com.sfpd.java.simpleBot.doc;
 
 public class RunningProgramsOnYourComputer {
     /** INSTALLING JAVA ON YOUR COMPUTER

@@ -1,4 +1,4 @@
-package com.company.docSimpleBot;
+package com.sfpd.java.simpleBot.doc;
 
 public class Characters {
     public static void main(String[] args) {

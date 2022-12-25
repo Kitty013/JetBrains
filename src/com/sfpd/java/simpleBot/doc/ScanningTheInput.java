@@ -1,4 +1,4 @@
-package com.company.docSimpleBot;
+package com.sfpd.java.simpleBot.doc;
 
 	/** Simplest way to obtain data from the standard input is to use the
 	 *  standard class Scanner. To use this class you should add the

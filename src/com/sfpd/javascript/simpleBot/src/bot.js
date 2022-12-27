@@ -134,3 +134,70 @@ $3. Example
     let remainder7 = input();
     let age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105;
     console.log("Your age is " + age + " that's a good time to start programming!");
+
+/**
+$1. Description
+    Now you will teach your bot to count. It's going to become an expert in numbers!
+
+$2. Objective
+    In this tage, you will program the bot to count from O to any positive number
+    users enter.
+
+$3. Example
+    The greater-than symbol followed by a space (> ) represents the user input. Note
+    that it's not part of the input.
+    Example 1: a dialogue with the new version of the bot
+        Hello! My name is Aid.
+        I was created in 2022.
+        Please, remind me your name.
+        > Max
+        What a great name you have, Max!
+        Let me guess your age.
+        Enter remainders of dividing your age by 3, 5 and 7.
+        > 1
+        > 2
+        > 1
+        Your age is 22; that's a good time to start programming!
+        Now I will prove to you that I can count to any number you want.
+        > 5
+        0 !
+        1 !
+        2 !
+        3 !
+        4 !
+        5 !
+        Completed, have a nice day!
+    Note: each number starts with a new line, and after a number, the bot should
+    print the exclamation mark.
+    Use the provided template to simplify your work. You can change the text if you
+    want, but be especially careful when counting numbers.
+**/
+    const input = require('sync-input');
+
+    console.log("Hello! My name is Aid.")
+    console.log("I was created in 2020.")
+    console.log("Please, remind me your name.")
+
+    let name = input()
+
+    console.log("What a great name you have, " + name + "!")
+    console.log("Let me guess your age.")
+    console.log("Enter remainders of dividing your age by 3, 5 and 7.")
+
+    let rem3 = Number(input());
+    let rem5 = Number(input());
+    let rem7 = Number(input());
+
+    let age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105;
+
+    console.log("Your age is " + age + "; that's a good time to start programming!");
+    console.log("Now I will prove to you that I can count to any number you want.");
+
+    let userCount = Number(input());
+    let count = 0;
+    while (count <= userCount) {
+        console.log(count + " !");
+        count++;
+    };
+
+    console.log("Completed, have a nice day!");

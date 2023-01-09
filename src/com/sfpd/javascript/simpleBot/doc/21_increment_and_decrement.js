@@ -48,3 +48,12 @@ $3. Postfix increment
     console.log(a++ - a); // -1
 
 let sum = --a + --b + --c;
+
+
+int result = 5;
+int a = 1;
+int b = --a; // 0
+a++; // 2
+result += a + (--a / ++b);
+console.log(result); // 6
+// 5 + 1 + (0/1)= 6 => 0/1 = 0

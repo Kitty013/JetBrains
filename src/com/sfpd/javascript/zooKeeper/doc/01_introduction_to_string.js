@@ -5,7 +5,7 @@ $1. What is a string?
     dashes, and everything else you can see on your keyboard. So, how can you create a
     variable to store this data? You might be thinking it can be done like this:
 **/
-    let text = Hello, World!
+    //let text = Hello, World!
 
 /**
     But unfortunately, that's not correct. You need to use quotes so that Javascript

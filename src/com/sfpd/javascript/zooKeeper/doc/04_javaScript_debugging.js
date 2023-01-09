@@ -93,8 +93,3 @@ $3. Setting breakpoints
     The debugger keyword is convenient when you use a code editor, but if you also
     interact with the browser, you can set the breakpoint in the Developer Tools.
 **/
-
-area = 30;
-volume = 210;
-30 210
-true

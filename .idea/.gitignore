@@ -1,6 +1,14 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/encodings.xml
+/jpa-buddy.xml
+/misc.xml
+/modules.xml
+/project-template.xml
+/uiDesigner.xml
+/vcs.xml
+
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml

@@ -19,13 +19,4 @@
 
 let numbers = [11 ,12 ,15 ,10 ,0 ,100];
 
-  for (const number in numbers) {
-    let result = result + numbers[number];
-    if (numbers[number] === 0) {
-      console.log(result);
-      break;
-    };
 
-  } return result;
-
-console.log(result);

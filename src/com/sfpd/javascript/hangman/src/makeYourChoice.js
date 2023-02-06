@@ -35,7 +35,9 @@ console.log(title)
 
 let question = 'Guess the word: ';
 let answer = String(prompt(question)).toLowerCase();
-let word = 'python';
+let list = ["python", "java", "swift", "javascript"];
+let index = Math.floor(Math.random() * list.length);
+let word = list[index];
 
 if (answer === word) {
     console.log('You survived!')

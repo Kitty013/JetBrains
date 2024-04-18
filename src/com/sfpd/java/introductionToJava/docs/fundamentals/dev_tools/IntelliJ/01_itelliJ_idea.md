@@ -4,19 +4,23 @@ IntelliJ IDEA is the leading Java and Kotlin IDE by JetBrains.
 
 In the industry, it stands out with:
 
-The most advanced context-aware editor that gives you code completion hints as you type, provides fixes for errors and warnings, and lets you find anything from classes to tool windows.
+The most advanced context-aware editor that gives you code completion hints as you type, provides fixes
+for errors and warnings, and lets you find anything from classes to tool windows.
 
-In-depth code understanding guarantees that the IDE can instantly detect errors and provide relevant suggestions in every context.
+In-depth code understanding guarantees that the IDE can instantly detect errors and provide relevant 
+suggestions in every context.
 
-Out-of-the-box experience, which means that you can start coding right from the first launch. Mission-critical tools and a wide variety of supported languages are at your fingertips ? no plugin hassle involved.
+Out-of-the-box experience, which means that you can start coding right from the first launch.
+Mission-critical tools and a wide variety of supported languages are at your fingertips ? no plugin 
+hassle involved.
 
-Tools for collaborative and remote development.
+## Tools for collaborative and remote development.
 
 IntelliJ IDEA comes in two editions:
 
-IntelliJ IDEA Community Edition is a free version containing more than enough features to cover the essential needs of most Java and Kotlin development.
+- IntelliJ IDEA Community Edition is a free version containing more than enough features to cover the essential needs of most Java and Kotlin development.
 
-IntelliJ IDEA Ultimate is a full-featured commercial version that supports various frameworks and technologies for backend and frontend development. It offers an advanced toolset to streamline your workflow. There are profiling, database tools, and an HTTP client right out of the box.
+- IntelliJ IDEA Ultimate is a full-featured commercial version that supports various frameworks and technologies for backend and frontend development. It offers an advanced toolset to streamline your workflow. There are profiling, database tools, and an HTTP client right out of the box.
 
 Create your first project
 Let's take a closer look at how the IntelliJ IDEA works. To start with, follow the steps below to create your first app in IntelliJ IDEA.
@@ -40,7 +44,7 @@ Demo. This node represents your project module. The .idea directory and the file
 
 External Libraries. This category represents all the "external" resources necessary for your development work. The standard files of your project language are placed there. You can also add other resources manually.
 
-Write your first code
+## Write your first code
 Now we will write a simple piece of Java code for the Demo project.
 
 First, let's create a class and a package.
@@ -62,7 +66,7 @@ But in this tutorial, let's try another way. We will add the methods with Live T
 3. To call the println() method, type sout and press Enter. Inside the parentheses, type: "Hello, World!".
    Congratulations! You have written your first Java app in IntelliJ IDEA. For more information, you can always refer to the complete official tutorial.
 
-Conclusion
+ ## Conclusion
 We've learned how to create a project and write a small program in IntelliJ IDEA. You can find this IDE quite suitable if you:
 
 Want to start coding a few minutes after installing and have immediate access to all essential features.

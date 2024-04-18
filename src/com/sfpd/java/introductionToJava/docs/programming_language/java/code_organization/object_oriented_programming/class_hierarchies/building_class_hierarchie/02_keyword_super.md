@@ -1,22 +1,23 @@
 # Keyword super
 
-Sometimes when we define a new subclass we need to access members or constructors of its superclass. Java provides a special keyword super to do this. This keyword can be used in several cases:
-
-to access instance fields of the parent class;
-
-to invoke methods of the parent class;
-
-to invoke constructors of the parent class (no-arg or parameterized).
+Sometimes when we define a new subclass we need to access members or constructors of its superclass. 
+Java provides a special keyword super to do this. This keyword can be used in several cases:
+- to access instance fields of the parent class;
+- to invoke methods of the parent class;
+- to invoke constructors of the parent class (no-arg or parameterized).
 
 Let's consider all of these cases with examples.
 
-Accessing superclass fields and methods
-The keyword super can be used to access instance methods or fields of the superclass. In a sense, it is similar to the keyword this, but it refers to the immediate parent class object.
+## Accessing superclass fields and methods
+The keyword super can be used to access instance methods or fields of the superclass. In a sense,
+it is similar to the keyword this, but it refers to the immediate parent class object.
 
-The keyword super is optional if members of a subclass have different names from members of the superclass. Otherwise, using super is the right way to access hidden (with the same name) members of the base class.
+The keyword super is optional if members of a subclass have different names from members of the
+superclass. Otherwise, using super is the right way to access hidden (with the same name) members 
+of the base class.
 
 Example. There are two classes: SuperClass and SubClass. Each class has a field and a method.
-
+```
 class SuperClass {
 
     protected int field;
@@ -48,22 +49,26 @@ class SubClass extends SuperClass {
         System.out.println(field);
     }
 }
+```
+In the constructor of SubClass , the superclass field is initialized using the keyword super. We need
+to use the keyword here because the subclass field hides the base class field with the same name.
 
-In the constructor of SubClass , the superclass field is initialized using the keyword super. We need to use the keyword here because the subclass field hides the base class field with the same name.
+In the body of the method printSubValue , the superclass method printBaseValue is invoked. Here, 
+the keyword super is optional. It is required when a subclass method has the same name as a method 
+in the base class. This case will be considered in the topic concerning overriding.
 
-In the body of the method printSubValue , the superclass method printBaseValue is invoked. Here, the keyword super is optional. It is required when a subclass method has the same name as a method in the base class. This case will be considered in the topic concerning overriding.
-
-Invoking superclass constructor
-Constructors are not inherited by subclasses, but a superclass constructor can be invoked from a subclass using the keyword super with parentheses. We can also pass some arguments to the superclass constructor.
+## Invoking superclass constructor
+Constructors are not inherited by subclasses, but a superclass constructor can be invoked from a 
+subclass using the keyword super with parentheses. We can also pass some arguments to the superclass 
+constructor.
 
 Two important points:
-
-Invoking super(...) must be the first statement in a subclass constructor, otherwise, the code cannot be compiled;
-
-The default constructor of a subclass automatically calls the no-argument constructor of the superclass.
+- Invoking super(...) must be the first statement in a subclass constructor, otherwise, the code 
+cannot be compiled;
+- The default constructor of a subclass automatically calls the no-argument constructor of the superclass.
 
 Example. Here are two classes Person and Employee. The second class extends the first one. Each class has a constructor to initialize fields.
-
+```
 class Person {
 
     protected String name;
@@ -93,5 +98,7 @@ class Employee extends Person {
 
     // getters and setters
 }
-
-In the provided example, the constructor of the class Employee invokes the parent class constructor to assign values to the passed fields. In a way, it resembles working with multiple constructors using this().
+```
+In the provided example, the constructor of the class Employee invokes the parent class constructor 
+to assign values to the passed fields. In a way, it resembles working with multiple constructors 
+using this().

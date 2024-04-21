@@ -18,31 +18,38 @@ hassle involved.
 
 IntelliJ IDEA comes in two editions:
 
-- IntelliJ IDEA Community Edition is a free version containing more than enough features to cover the essential needs of most Java and Kotlin development.
+- IntelliJ IDEA Community Edition is a free version containing more than enough features to cover the 
+essential needs of most Java and Kotlin development.
+- IntelliJ IDEA Ultimate is a full-featured commercial version that supports various frameworks and 
+technologies for backend and frontend development. It offers an advanced toolset to streamline your 
+workflow. There are profiling, database tools, and an HTTP client right out of the box.
 
-- IntelliJ IDEA Ultimate is a full-featured commercial version that supports various frameworks and technologies for backend and frontend development. It offers an advanced toolset to streamline your workflow. There are profiling, database tools, and an HTTP client right out of the box.
-
-Create your first project
-Let's take a closer look at how the IntelliJ IDEA works. To start with, follow the steps below to create your first app in IntelliJ IDEA.
+## Create your first project
+Let's take a closer look at how the IntelliJ IDEA works. To start with, follow the steps below to create
+your first app in IntelliJ IDEA.
 
 1. Install IntelliJ IDEA Community Edition on your computer and launch it.
-
-2. If no project is currently open in IntelliJ IDEA, click on New Project in the Projects section on the Welcome screen. Otherwise, select File | New | Project.
-
-3. In the New Project wizard, select New Project from the list on the left. There is also an option to create an empty project without language support.
-
+2. If no project is currently open in IntelliJ IDEA, click on New Project in the Projects section on the
+Welcome screen. Otherwise, select File | New | Project.
+3. In the New Project wizard, select New Project from the list on the left. There is also an option to
+create an empty project without language support.
 4. Name the project (for example, Demo) and change the default location if necessary.
-
-5. We're not going to work with version control systems in this tutorial, so leave the Create Git repository option disabled.
-
+5. We're not going to work with version control systems in this tutorial, so leave the Create Git
+repository option disabled.
 6. Select Java in Language, and IntelliJ in Build system.
-7. To develop Java applications in IntelliJ IDEA, you need the Java SDK (JDK). Your IDE will fill in the JDK field automatically. But you can change it, add the necessary JDK from your computer, or download one.
+7. To develop Java applications in IntelliJ IDEA, you need the Java SDK (JDK). Your IDE will fill in
+the JDK field automatically. But you can change it, add the necessary JDK from your computer, or
+download one.
+8. IntelliJ IDEA creates the project. When this process is complete, the structure of your new project
+is shown in the Project tool window. There are two top-level nodes:
 
-8. IntelliJ IDEA creates the project. When this process is complete, the structure of your new project is shown in the Project tool window. There are two top-level nodes:
+Demo. This node represents your project module. The .idea directory and the file Demo.iml are used to 
+store configuration data for your project and module, respectively. The src directory is for your 
+source code.
 
-Demo. This node represents your project module. The .idea directory and the file Demo.iml are used to store configuration data for your project and module, respectively. The src directory is for your source code.
-
-External Libraries. This category represents all the "external" resources necessary for your development work. The standard files of your project language are placed there. You can also add other resources manually.
+External Libraries. This category represents all the "external" resources necessary for your development 
+work. The standard files of your project language are placed there. You can also add other resources
+manually.
 
 ## Write your first code
 Now we will write a simple piece of Java code for the Demo project.
